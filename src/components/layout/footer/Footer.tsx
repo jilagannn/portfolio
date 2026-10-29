@@ -2,8 +2,8 @@ import { footerCopyrightYear } from "./copyright"
 
 export const Footer = () => {
     return(
-        <footer>
-            <span>&#169; Jheyrus Ilagan, {footerCopyrightYear()}</span>
+        <footer className="font-styrene font-light text-xs text-center">
+            <span>&#169; {footerCopyrightYear()} Jheyrus Ilagan</span>
         </footer>
     )
 }
