@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Styrene B';
+    src: url('../src/assets//fonts/StyreneB-Black.woff2') format('woff2'),
+        url('../src/assets//fonts/StyreneB-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Styrene B';
+    src: url('../src/assets//fonts/StyreneB-Bold.woff2') format('woff2'),
+        url('../src/assets//fonts/StyreneB-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Styrene B';
+    src: url('../src/assets//fonts/StyreneB-Light.woff2') format('woff2'),
+        url('../src/assets//fonts/StyreneB-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Styrene B';
+    src: url('../src/assets//fonts/StyreneB-Medium.woff2') format('woff2'),
+        url('../src/assets//fonts/StyreneB-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Styrene B';
+    src: url('../src/assets//fonts/StyreneB-Regular.woff2') format('woff2'),
+        url('../src/assets//fonts/StyreneB-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Styrene B';
+    src: url('../src/assets//fonts/StyreneB-Thin.woff2') format('woff2'),
+        url('../src/assets//fonts/StyreneB-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+  --font-styrene: "Styrene B", sans-serif; 
+}
