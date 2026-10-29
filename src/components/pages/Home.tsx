@@ -7,8 +7,8 @@ export const Home = () => {
                 src='/src/assets/images/akira-wallpaper.webp'
                 title={
                 <div className="w-full max-w-3xl text-black">
-                    <p className="text-left">JHEYRUS</p>
-                    <p className="text-right">ILAGAN</p>
+                    <p className="text-left">&lt;JHEYRUS</p>
+                    <p className="text-right">ILAGAN/&gt;</p>
                 </div>
                 }
                 scrollHint="↓ Scroll Down To View ↓"
@@ -19,7 +19,7 @@ export const Home = () => {
                 startWidth={55}
                 startRadius={12}
             >
-                <h1 className="text-7xl font-styrene font-semibold">welcome to my portfolio.</h1>
+                <h1 className="text-7xl font-styrene font-semibold">&lt;welcome to my portfolio./&gt;</h1>
             </ScrollExpand>
             <section className="flex items-center" id="aboutMe">
                 <img 
@@ -27,7 +27,7 @@ export const Home = () => {
                     alt="ryota miyagi passing ball"
                     className="w-150"/>
                 <div id="aboutContainer" className="w-150">
-                    <h1 className="text-4xl font-styrene font-black">Hello, I'm Jheyrus Ilagan</h1>
+                    <h1 className="text-4xl font-styrene font-black">&lt;Hello, I'm Jheyrus Ilagan/&gt;</h1>
                     <p className="mt-5">
                     This is my portfolio! I'm a passionate learner currently diving into the skills of a full-stack developer, software engineering, and devops engineering. I enjoy building data driven applications, automation, and collaborating with others.
                     <br/>
