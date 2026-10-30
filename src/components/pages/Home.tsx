@@ -1,6 +1,6 @@
-import ScrollExpand from "../common/reactbits/ScrollExpand";
-import LogoLoop from "../common/reactbits/LogoLoop";
-import { techLogos } from "../common/reacticons/techIcons";
+import ScrollExpand from "../../lib/reactbits/ScrollExpand";
+import LogoLoop from "../../lib/reactbits/LogoLoop";
+import { techLogos } from "../../lib/reacticons/techIcons";
 
 export const Home = () => {
     return(
