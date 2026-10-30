@@ -1,4 +1,6 @@
 import ScrollExpand from "../common/reactbits/ScrollExpand";
+import LogoLoop from "../common/reactbits/LogoLoop";
+import { techLogos } from "../common/reacticons/techIcons";
 
 export const Home = () => {
     return(
@@ -37,6 +39,24 @@ export const Home = () => {
                     <br/>
                     My current hobbies right now are bouldering, running, and playing the guitar. I also enjoy watching anime and play video games here and there.
                     </p>
+                </div>
+            </section>
+            <section id="skills" className="flex items-center flex-col mt-45">
+                <h1 className="text-3xl font-styrene font-black mb-10">&lt;Tech Stack/&gt;</h1>
+                <div id="skillsContainer" className="w-430 mb-10">
+                    <LogoLoop 
+                        logos={techLogos}
+                        speed={20}
+                        direction="right"
+                        logoHeight={50}
+                        gap={50}
+                        hoverSpeed={0}
+                        scaleOnHover={true}
+                        ariaLabel="Technology partners"
+                        layout="wave"
+                        bend={0.7}
+                        labels="inline"
+                    />
                 </div>
             </section>
         </div>
