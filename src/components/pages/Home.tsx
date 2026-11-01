@@ -62,6 +62,18 @@ export const Home = () => {
                         labels="inline"
                     />
                 </div>
+            </section> 
+            <section id="education" className="w-320">
+                <div className="flex">
+                    <h1 className="text-3xl font-styrene font-black mt-30 mb-5">&lt;Education & Experience/&gt;</h1>
+                </div>
+                <ul>
+                    <li className="flex justify-between font-styrene">
+                        <h3 className="mt-">Application Developer <span className="font-light">@ Red River College Polytechnic</span></h3>
+                        <span className="font-thin">Jan 2025 - May 2027</span>
+                    </li>
+                    <li className="flex justify-between font-styrene font-light">Dean's Honour List</li>
+                </ul>
             </section>
         </div>
         
