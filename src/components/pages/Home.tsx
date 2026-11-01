@@ -23,11 +23,7 @@ export const Home = () => {
             >
                 <h1 className="text-7xl font-styrene font-semibold">&lt;welcome to my portfolio./&gt;</h1>
             </ScrollExpand>
-            <section className="flex items-center" id="aboutMe">
-                <img 
-                    src="../src/assets/images/ryota.webp" 
-                    alt="ryota miyagi passing ball"
-                    className="w-150"/>
+            <section className="flex items-center gap-x-25" id="aboutMe">
                 <div id="aboutContainer" className="w-150">
                     <h1 className="text-4xl font-styrene font-black">&lt;Hello, I'm Jheyrus Ilagan/&gt;</h1>
                     <p className="mt-5">
@@ -40,10 +36,18 @@ export const Home = () => {
                     My current hobbies right now are bouldering, running, and playing the guitar. I also enjoy watching anime and play video games here and there.
                     </p>
                 </div>
+                <img 
+                    src="../src/assets/images/ryota.webp" 
+                    alt="ryota miyagi passing ball"
+                    className="w-150 scale-x-[-1]"/>
             </section>
-            <section id="skills" className="flex items-center flex-col mt-45">
-                <h1 className="text-3xl font-styrene font-black mb-10">&lt;Tech Stack/&gt;</h1>
-                <div id="skillsContainer" className="w-430 mb-10">
+            <section id="skills" className="flex flex-col w-320 mt-10">
+                <div className="">
+                    <h1 className="text-3xl font-styrene font-black mb-45">&lt;Tech Stack/&gt;</h1>
+                </div>
+            </section>
+            <section className="w-screen" id="logoLoop">
+                <div id="techLogoContainer" className="mb-10">
                     <LogoLoop 
                         logos={techLogos}
                         speed={20}
