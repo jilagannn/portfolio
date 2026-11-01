@@ -35,6 +35,6 @@ export const techLogos = [
     {title: "Tailwind CSS", node: <SiTailwindcss />},
     {title: "Git", node: <SiGit />},
     {title: "Docker", node: <SiDocker />},
-    {title: "AWS", node: <FaAws />},
+    {title: "Amazon Web Services", node: <FaAws />},
     {title: "Linux", node: <SiLinux />},
 ];
