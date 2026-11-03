@@ -15,7 +15,6 @@ export const Menu = () => (
             openMenuButtonColor="#222222"
             changeMenuColorOnOpen={true}
             colors={['#ed8654', '#d7160e']}
-            logoUrl="/path-to-your-logo.svg"
             accentColor="#fa1012"
             onMenuOpen={() => console.log('Menu opened')}
             onMenuClose={() => console.log('Menu closed')}
