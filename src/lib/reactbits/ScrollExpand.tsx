@@ -245,7 +245,7 @@ const ScrollExpand: React.FC<ScrollExpandProps> = ({
     ) : (
       <img
         ref={mediaRef}
-        className="absolute inset-0 w-full h-full object-cover origin-center select-none [will-change:transform]"
+        className="absolute inset-0 w-full h-full object-cover origin-center select-none [will-change:transform] scale-x-[-1]"
         src={src}
         alt={alt}
         draggable={false}
