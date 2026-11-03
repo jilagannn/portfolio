@@ -408,7 +408,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
 
           <button
             ref={toggleBtnRef}
-            className={`sm-toggle relative inline-flex items-center gap-[0.3rem] bg-transparent border-0 cursor-pointer font-medium leading-none overflow-visible pointer-events-auto ${
+            className={`sm-toggle relative inline-flex font-styrene items-center gap-[0.3rem] bg-transparent border-0 cursor-pointer font-medium leading-none overflow-visible pointer-events-auto ${
               open ? 'text-black' : 'text-[#e9e9ef]'
             }`}
             aria-label={open ? 'Close menu' : 'Open menu'}
@@ -465,7 +465,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
                 items.map((it, idx) => (
                   <li className="sm-panel-itemWrap relative overflow-hidden leading-none" key={it.label + idx}>
                     <a
-                      className="sm-panel-item relative text-black font-semibold text-[4rem] cursor-pointer leading-none tracking-[-2px] uppercase transition-[background,color] duration-150 ease-linear inline-block no-underline pr-[1.4em]"
+                      className="sm-panel-item relative text-black font-styrene font-black text-[4rem] cursor-pointer leading-none tracking-[-2px] uppercase transition-[background,color] duration-150 ease-linear inline-block no-underline pr-[1.4em]"
                       href={it.link}
                       aria-label={it.ariaLabel}
                       data-index={idx + 1}
@@ -489,7 +489,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
 
             {displaySocials && socialItems && socialItems.length > 0 && (
               <div className="sm-socials mt-auto pt-8 flex flex-col gap-3" aria-label="Social links">
-                <h3 className="sm-socials-title m-0 text-base font-medium [color:var(--sm-accent,#ff0000)]">Socials</h3>
+                <h3 className="sm-socials-title m-0 font-styrene text-base font-medium [color:var(--sm-accent,#ff0000)]">Socials</h3>
                 <ul
                   className="sm-socials-list list-none m-0 p-0 flex flex-row items-center gap-4 flex-wrap"
                   role="list"
@@ -500,7 +500,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
                         href={s.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="sm-socials-link text-[1.2rem] font-medium text-[#111] no-underline relative inline-block py-[2px] transition-[color,opacity] duration-300 ease-linear"
+                        className="sm-socials-link text-[1.2rem] font-styrene font-medium text-[#111] no-underline relative inline-block py-[2px] transition-[color,opacity] duration-300 ease-linear"
                       >
                         {s.label}
                       </a>
