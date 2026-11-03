@@ -2,8 +2,16 @@ import { footerCopyrightYear } from "./copyright"
 
 export const Footer = () => {
     return(
-        <footer className="font-styrene font-light text-xs text-center">
-            <span>&#169; {footerCopyrightYear()} Jheyrus Ilagan</span>
+        <footer>
+            <div className="flex flex-row mt-10 justify-evenly gap-x-50 items-end">
+                <div className="font-styrene font-light text-xs text-center flex flex-row">
+                    <span>Built with React, TypeScript, and Tailwind CSS</span>
+                </div>
+                <div className="font-styrene font-light text-xs text-center flex flex-row">
+                    <span>&#169; {footerCopyrightYear()} Jheyrus Ilagan</span>
+                </div>
+                <img src="../../src/assets/images/oikawa-pointing.webp" className="w-100" alt="" />
+            </div>
         </footer>
     )
 }
