@@ -6,7 +6,7 @@
  */
 
 import React, { useCallback, useEffect, useRef } from 'react';
-import type { CSSProperties, ReactNode } from 'react';
+import type { ScrollExpandProps, ConfigKey } from '@/types/scrollExpand';
 
 const clamp = (v: number, a: number, b: number): number => (v < a ? a : v > b ? b : v);
 
@@ -15,42 +15,6 @@ const smoothstep = (edge0: number, edge1: number, x: number): number => {
   return t * t * (3 - 2 * t);
 };
 
-type ConfigKey =
-  | 'startWidth'
-  | 'startHeight'
-  | 'startRadius'
-  | 'endRadius'
-  | 'mediaZoom'
-  | 'scrollDistance'
-  | 'holdDistance'
-  | 'smoothing'
-  | 'overlayScrim'
-  | 'useWindowScroll'
-  | 'enabled';
-
-export interface ScrollExpandProps {
-  src?: string;
-  mediaType?: 'image' | 'video';
-  poster?: string;
-  alt?: string;
-  title?: ReactNode;
-  scrollHint?: string;
-  startWidth?: number;
-  startHeight?: number;
-  startRadius?: number;
-  endRadius?: number;
-  mediaZoom?: number;
-  scrollDistance?: number;
-  holdDistance?: number;
-  smoothing?: number;
-  overlayScrim?: number;
-  useWindowScroll?: boolean;
-  enabled?: boolean;
-  children?: ReactNode;
-  className?: string;
-  style?: CSSProperties;
-  [key: string]: unknown;
-}
 
 const ScrollExpand: React.FC<ScrollExpandProps> = ({
   src = '',
