@@ -1,6 +1,7 @@
 import ScrollExpand from "../../lib/reactbits/ScrollExpand";
 import LogoLoop from "../../lib/reactbits/LogoLoop";
 import { techLogos } from "../../lib/reacticons/techIcons";
+import { Menu } from "../common/Menu";
 
 export const Home = () => {
     return(
@@ -23,6 +24,7 @@ export const Home = () => {
             >
                 <h1 className="text-7xl font-styrene font-semibold">&lt;welcome to my portfolio./&gt;</h1>
             </ScrollExpand>
+            <Menu />
             <section className="flex items-center gap-x-25" id="aboutMe">
                 <div id="aboutContainer" className="w-150">
                     <h1 className="text-4xl font-styrene font-black">&lt;Hello, I'm Jheyrus Ilagan/&gt;</h1>
@@ -61,7 +63,7 @@ export const Home = () => {
                     />
                 </div>
             </section> 
-            <section id="education" className="w-320">
+            <section id="experience" className="w-320">
                 <h1 className="text-3xl font-styrene font-black mb-5">&lt;Experience & Education/&gt;</h1>
                 <ul>
                     <li className="flex justify-between font-styrene">
@@ -134,7 +136,6 @@ export const Home = () => {
                     </div>
                 </article>
             </section>
-        </div>
-        
+        </div> 
     )
 }
