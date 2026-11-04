@@ -12,10 +12,10 @@ export const Menu = () => (
             displaySocials
             displayItemNumbering={false}
             menuButtonColor="#222222"
-            openMenuButtonColor="#222222"
+            openMenuButtonColor="#f0f0f0"
             changeMenuColorOnOpen={true}
             colors={['#ed8654', '#d7160e']}
-            accentColor="#fa1012"
+            accentColor="#d7373a"
             onMenuOpen={() => console.log('Menu opened')}
             onMenuClose={() => console.log('Menu closed')}
         />
