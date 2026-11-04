@@ -1,4 +1,5 @@
 import { techLogos } from "@/lib/reacticons/techIcons";
+import ketnipz from "@/assets/images/ketnipz-pixelated.webp"
 
 export const Projects = () => (
     <section id="projects" className="w-320 flex flex-col gap-y-5">
@@ -25,7 +26,7 @@ export const Projects = () => (
         <article className="flex flex-row border rounded-lg gap-x-4 w-320">
             <div id="imgContainer" className="overflow-hidden min-w-100">
                 <img
-                    src="../src/assets/images/ketnipz-pixelated.webp"
+                    src={ketnipz}
                     alt=""
                     className="w-100 h-100 object-cover rounded-s-lg"
                 />
