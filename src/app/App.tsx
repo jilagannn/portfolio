@@ -5,10 +5,16 @@ import { Home } from '../components/pages/Home';
 export const App = () => {
     return(
         <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route 
+                path="/" 
+                element={
+                        <Layout />
+                }>
                 <Route 
-                    path="/home"
-                    element={<Home />}
+                    path="/"
+                    element={
+                        <Home />
+                    }
                 />
             </Route>
         </Routes>
