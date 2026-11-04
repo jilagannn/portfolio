@@ -1,4 +1,5 @@
-import { footerCopyrightYear } from "./copyright"
+import { footerCopyrightYear } from "./copyright";
+import oikawa from "@/assets/images/oikawa-pointing.webp";
 
 export const Footer = () => {
     return(
@@ -10,7 +11,7 @@ export const Footer = () => {
                 <div className="font-styrene font-light text-xs text-center flex flex-row">
                     <span>&#169; {footerCopyrightYear()} Jheyrus Ilagan</span>
                 </div>
-                <img src="../../src/assets/images/oikawa-pointing.webp" className="w-100" alt="" />
+                <img src={oikawa} className="w-100" alt="oikawa pointing" />
             </div>
         </footer>
     )
