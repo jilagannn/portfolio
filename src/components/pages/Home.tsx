@@ -1,7 +1,7 @@
 import ScrollExpand from "../../lib/reactbits/ScrollExpand";
 import LogoLoop from "../../lib/reactbits/LogoLoop";
 import { techLogos } from "../../lib/reacticons/techIcons";
-import { Menu } from "../common/Menu";
+import { Menu } from "../layout/menu/Menu";
 
 export const Home = () => {
     return(
